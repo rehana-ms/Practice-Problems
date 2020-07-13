@@ -10,9 +10,13 @@ def show_excitement():
     # Your code goes here!
     result=""
     x=0
-    print(x)
-    for x in 5:  
+    print("hello")
+    for x in range(1,6):  
         print (x) 
-       # result + ='I am super excited for this course! '
+  #      result + ="I am super excited for this course! "
         print(result)
     return result
+
+print("hello")
+#show_excitement()
+
