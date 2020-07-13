@@ -9,8 +9,7 @@
 def show_excitement():
     # Your code goes here!
     result=""
-    for x in range(0,5):  
-        print (x) 
+    for x in range(0,5):   
         result+="I am super excited for this course! "
         print(result)
     return result
