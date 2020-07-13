@@ -8,7 +8,7 @@
 
 def show_excitement():
     # Your code goes here!
-    result=''
+    result=""
     x=0
     print(x)
     for x in 5:  
