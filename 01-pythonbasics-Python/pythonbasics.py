@@ -11,7 +11,6 @@ def show_excitement():
     result=""
     for x in range(0,5):   
         result+="I am super excited for this course! "
-        #print(result)
     return result
 
 
