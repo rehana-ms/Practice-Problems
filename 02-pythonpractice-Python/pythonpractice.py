@@ -34,10 +34,10 @@ class Classy(object):
         return result
 
          
-c=Classy()
+""" c=Classy()
 c.addItem("tophat")
 c.addItem("rehana")
 c.addItem("bowtie")
 c.addItem("jacket")
 c.addItem("monocle")
-result=c.classiness()
+result=c.classiness() """
