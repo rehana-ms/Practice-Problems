@@ -20,7 +20,7 @@ class Classy(object):
         self.items = []
     def addItem(self,s):
         print(s)
-        self.items.append(2)
+        self.items.append(s)
         print(self.items)
 
 c=Classy()
