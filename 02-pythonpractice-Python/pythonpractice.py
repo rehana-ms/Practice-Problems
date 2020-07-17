@@ -30,7 +30,9 @@ class Classy(object):
             result+=5
         print(result)
          
-
 c=Classy()
 c.addItem("tophat")
 c.addItem("rehana")
+c.addItem("bowtie")
+c.addItem("jacket")
+c.addItem("monocle")
