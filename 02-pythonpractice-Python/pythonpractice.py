@@ -21,14 +21,17 @@ class Classy(object):
     def addItem(self,s):
         self.items.append(s)
         print(self.items)
-        result=0
-        if(s=="tophat"):
-            result+=2
-        elif(s=="bowtie"):
-            result+=4
-        elif(s=="monocle"):
-            result+=5
+    def classiness(items):
+        for s in items:
+            if(s=="tophat"):
+                result+=2
+            elif(s=="bowtie"):
+                result+=4
+            elif(s=="monocle"):
+                result+=5
         print(result)
+        return result
+
          
 c=Classy()
 c.addItem("tophat")
