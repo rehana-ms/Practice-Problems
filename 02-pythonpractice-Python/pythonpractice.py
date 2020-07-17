@@ -30,14 +30,4 @@ class Classy(object):
                 result+=4
             elif(s=="monocle"):
                 result+=5
-        print(result)
         return result
-
-         
-""" c=Classy()
-c.addItem("tophat")
-c.addItem("rehana")
-c.addItem("bowtie")
-c.addItem("jacket")
-c.addItem("monocle")
-result=c.classiness() """
