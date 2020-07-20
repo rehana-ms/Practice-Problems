@@ -9,6 +9,8 @@ def fun_getinrange(x, bound1, bound2):
 	if(x<bound2):
 		if(bound1<x):
 			return x
+		else:
+			return bound1
 	else:
 		if(bound1<bound2):
 			if(x<bound1):
