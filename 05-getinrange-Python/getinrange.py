@@ -7,7 +7,7 @@
 def fun_getinrange(x, bound1, bound2):
 	# your code goes here
 	if(x<bound2):
-		if(bound1>x):
+		if(bound1<x):
 				return x
 	elif(x>bound2):
 		return bound2
