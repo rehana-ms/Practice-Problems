@@ -9,8 +9,9 @@ def fun_getinrange(x, bound1, bound2):
 	if(x<bound2):
 		if(bound1<x):
 			return x
-	elif(x>bound2):
-		return bound2
-	elif(x<bound1):
-		return bound1
+	else:
+		if(x>bound2):
+			return bound2
+		elif(x<bound1):
+			return bound1
 	return -1
